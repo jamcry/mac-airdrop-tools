@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.jamcry.airdropshare</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/cemkiray/Documents/projects/jc/mac-airdrop-tools/airdrop-zone-statusbar/run-airdrop.sh</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <dict>
+        <key>Crashed</key>
+        <true/>
+    </dict>
+    <key>ThrottleInterval</key>
+    <integer>30</integer>
+    <key>StandardOutPath</key>
+    <string>/tmp/airdrop-share.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/airdrop-share.error.log</string>
+    <key>WorkingDirectory</key>
+    <string>/Users/cemkiray/Documents/projects/jc/mac-airdrop-tools/airdrop-zone-statusbar</string>
+</dict>
+</plist>

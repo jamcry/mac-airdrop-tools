@@ -1,0 +1,6 @@
+# Build artifacts
+airdrop-file
+airdrop-share-bin
+
+# macOS
+.DS_Store
